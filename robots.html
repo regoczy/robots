@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robots</title>
+</head>
+
+<body><center>
+	<h1>Robots</h1>
+	<span id="spantable"></span>
+	<br>
+	<button type="button" id="vicbtn" style="display:none">
+			<img src="images/victory.png" id="victory">
+	</button>
+	<button type="button" id="gobtn" style="display:none">
+			<img src="images/gameover.png" id="gameover">
+	</button>
+	
+	<br>
+	<table id="stats" style="display:none">
+		<tr>
+			<td>Score:</td>
+			<td><span id="score"></span></td>		
+		</tr>
+		<tr>
+			<td>Teleports:</td>
+			<td><span id="currtps"></span></td>		
+		</tr>
+		<tr>
+			<td>Robots:</td>
+			<td><span id="robs"></span></td>		
+		</tr>
+	</table>
+	
+	<script type="text/javascript" src="js.js"></script>
+	<form id="form">
+		Vertical Size of the Map:<br>
+		<input type="number" id="nsize"><br>
+		Horizontal Size of the Map:<br>
+		<input type="number" id="msize"><br>
+		Number of allowed Safe Teleports:<br>
+		<input type="number" id="tps"><br><br>
+		<button type="button" id="Startbtn">
+			<img src="images/start.png" id="victory">
+		</button>
+	</form>
+</center></body>
+
+</html>
+
+
